@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "start-api": "cd api && python3 api.py",
-    "build": "cd api && python3 api.py && react-scripts build ",
+    "build": "react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
