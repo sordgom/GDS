@@ -16,7 +16,7 @@
     "axios": "^0.27.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start && cd api && python3 api.py",
     "start-api": "cd api && python3 api.py",
     "build": "react-scripts build ",
     "test": "react-scripts test",
