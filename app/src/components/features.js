@@ -2,7 +2,7 @@ import './form.css'
 import { useState } from 'react'
 import axios from 'axios'
 
-function Demographic() { 
+function Features() { 
     const [age, setAge] = useState('')
     const [gender, setGender] = useState('')
     const [state, setState] = useState('')
@@ -45,7 +45,6 @@ function Demographic() {
         .then((res) => {
             const data = res.data.data
             const parameters = JSON.stringify(params)
-            const msg = `Prediction: ${data.prediction}\nInterpretation: ${data.interpretation}\nParameters: ${parameters}`
             setResult(data)
             reset()
         })
@@ -527,4 +526,4 @@ function Demographic() {
     )
 }
 
-export default Demographic
+export default Features

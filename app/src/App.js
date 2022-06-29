@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Demographic from './components/demographic.js'
+import Features from './components/features.js'
 
 function App() {
   return (
     <div className="App">
-      <Demographic/>
+      <Features/>
     </div>
   );
 }
