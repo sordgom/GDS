@@ -8,6 +8,8 @@ https://sites.google.com/student.upm.edu.my/group4mmsegds15prediction/introducti
 This folder contains all the processing and scripting done to the dataset.
 
 ## Streamlit web app
+https://longyehmin-mmse-api-o5gd2y.streamlitapp.com/
+![image](https://user-images.githubusercontent.com/63149088/177204566-387498db-99c4-4382-81fe-6e2c1c8fd69b.png)
 
 ## App
 This is the app folder that contains the webapp 
